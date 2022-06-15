@@ -4,6 +4,10 @@ type = string
 
 define = t2.micro 
 
+
+}
+
+
 variable "region" {
   
 type = string
