@@ -2,7 +2,7 @@ variable "instance_type" {
 
 type = string 
 
-define = t2.micro 
+default = t2.micro 
 
 
 }
@@ -12,6 +12,6 @@ variable "region" {
   
 type = string
 
-define = us-east-1
+default = us-east-1
 
 }
